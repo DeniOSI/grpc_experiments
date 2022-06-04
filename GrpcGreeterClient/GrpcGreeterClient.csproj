@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Grpc.Net.Client" />
+        <PackageReference Include="Grpc.Tools" />
+        <PackageReference Include="Google.Protobuf" />
+    </ItemGroup>
+    <ItemGroup>
+      <Protobuf Include="Protos\greet.proto">
+        <GrpcServices>Client</GrpcServices>
+        <Access>Public</Access>
+        <ProtoCompile>True</ProtoCompile>
+        <CompileOutputs>True</CompileOutputs>
+        <OutputDir>obj\Debug\net6.0\</OutputDir>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Protobuf>
+    </ItemGroup>
+
+</Project>

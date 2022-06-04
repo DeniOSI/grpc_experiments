@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "3hnHv9vMekAX1BhiSelEdWPR5hTf6B4KyCS/VdWv7xk7wB2npU20ziDYZkY3ThF0WVH18ZnSWnibhjuAPlZ21w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\C5337441\\RiderProjects\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\C5337441\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\grpc.core.api\\2.40.0\\grpc.core.api.2.40.0.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\grpc.net.client\\2.40.0\\grpc.net.client.2.40.0.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\grpc.net.common\\2.40.0\\grpc.net.common.2.40.0.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\grpc.tools\\2.46.3\\grpc.tools.2.46.3.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.5\\microsoft.netcore.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.5\\microsoft.netcore.app.runtime.linux-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.5\\microsoft.aspnetcore.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.5\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\C5337441\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.5\\microsoft.netcore.app.host.linux-x64.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

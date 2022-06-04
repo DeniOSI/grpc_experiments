@@ -1,0 +1,11 @@
+﻿<Project>
+    <PropertyGroup>
+        <GrpcVersion>2.40.0</GrpcVersion>
+    </PropertyGroup>
+	<ItemGroup Label="Grpc">
+		<PackageReference Update="Grpc.Net.Client" Version="$(GrpcVersion)"/>
+		<PackageReference Update="Grpc.AspNetCore" Version="$(GrpcVersion)"/>
+		<PackageReference Update="Google.Protobuf" Version="3.18.0"/>
+		<PackageReference Update="Grpc.Tools" Version="2.46.3"/>
+	</ItemGroup>	
+</Project>

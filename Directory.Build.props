@@ -1,0 +1,22 @@
+<Project>
+    <PropertyGroup>
+        <Company>SAP SE</Company>
+        <Copyright>Copyright © SAP SE 2021</Copyright>
+        <Product>GrpcGreeter</Product>
+        <Description>Account Service</Description>
+        <VersionPrefix>4.0.50</VersionPrefix>
+        <Platforms>AnyCPU;x64</Platforms>
+        <TargetFramework>net6.0</TargetFramework>
+        <RuntimeIdentifiers>win10-x64;linux-x64</RuntimeIdentifiers>
+        <LangVersion>10.0</LangVersion>
+        <IncludeSymbols>true</IncludeSymbols>
+        <IsPublishable>False</IsPublishable>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+    
+    <PropertyGroup Label="GC configuration for service">
+        <ServerGarbageCollection>true</ServerGarbageCollection>
+        <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+        <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    </PropertyGroup>
+</Project>
