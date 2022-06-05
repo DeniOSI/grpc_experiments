@@ -1,10 +1,10 @@
 <Project>
     <PropertyGroup>
-        <Company>SAP SE</Company>
-        <Copyright>Copyright © SAP SE 2021</Copyright>
+        <Company>DoS Software</Company>
+        <Copyright>Copyright © DoS Software 2022</Copyright>
         <Product>GrpcGreeter</Product>
         <Description>Account Service</Description>
-        <VersionPrefix>4.0.50</VersionPrefix>
+        <VersionPrefix>1.0.0</VersionPrefix>
         <Platforms>AnyCPU;x64</Platforms>
         <TargetFramework>net6.0</TargetFramework>
         <RuntimeIdentifiers>win10-x64;linux-x64</RuntimeIdentifiers>
