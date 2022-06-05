@@ -13,7 +13,9 @@ public class GreeterService : Greeter.GreeterBase
 
     public override Task<PerfectUser> PerfectWeight(UserData request, ServerCallContext context)
     {
-        return Task.FromResult( new PerfectUser {PerfectWeight = request.Height - request.Weight});
+        if (request.Height is 0 || request.Weight >= request.Height)
+            throw new ArgumentException("Height and weight are incorrect.");
+        return Task.FromResult(new PerfectUser {PerfectWeight = request.Height - request.Weight});
     }
 
     public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
