@@ -11,6 +11,14 @@ public class GreeterService : Greeter.GreeterBase
         _logger = logger;
     }
 
+    
+    public class Solution {
+        public bool ContainsDuplicate(int[] nums)
+        {
+            var hSet = nums.ToHashSet();
+            return hSet.Count == nums.Length;
+        }
+    }
     public override Task<PerfectUser> PerfectWeight(UserData request, ServerCallContext context)
     {
         if (request.Height is 0 || request.Weight >= request.Height)

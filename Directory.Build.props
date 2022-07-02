@@ -6,7 +6,7 @@
         <Description>Account Service</Description>
         <VersionPrefix>1.0.0</VersionPrefix>
         <Platforms>AnyCPU;x64</Platforms>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net5.0</TargetFramework>
         <RuntimeIdentifiers>win10-x64;linux-x64</RuntimeIdentifiers>
         <LangVersion>10.0</LangVersion>
         <IncludeSymbols>true</IncludeSymbols>
